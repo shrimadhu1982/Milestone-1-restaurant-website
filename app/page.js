@@ -94,7 +94,7 @@ export default function Landing(){
     
       <div className="relative">
       <button onClick={() => {setPagesOpen(!Pagesopen); setBlogOpen(false); setShopOpen(false);}} className="text-white text-[18px] flex items-center"> Pages</button>
-      {Pagesopen && (<div className="absolute left-1 mt-3 w-[150px] bg-white text-black rounded-xl shadow-xl p-3 space-y-2 z-50">
+      {Pagesopen && (<div className="absolute left-1 mt-3 w-[150px] bg-white text-black rounded-xl shadow-xl p-3 space-y-2">
           <p onClick={() => router.push("/aboutUs")}>About Us</p>  <p>Chef</p>  <p> Chef Details</p>  <p>Login</p>  </div>
       )}
     </div>
@@ -118,7 +118,7 @@ export default function Landing(){
             </div>
      <div className="relative">
       <button onClick={() =>{ setShopOpen(!Shopsopen); setPagesOpen(false); setBlogOpen(false);} }className="text-white text-[18px] flex items-center"> Shop</button>
-      {Shopsopen && (<div className="absolute left-1 mt-3 w-[100px] bg-white text-black rounded-xl shadow-xl p-2 space-y-2 z-50">
+      {Shopsopen && (<div className="absolute left-1 mt-3 w-[100px] bg-white text-black rounded-xl shadow-xl p-2 space-y-2 ">
           <p onClick={() => router.push("/shop")}>Shop</p>  <p>Cart</p>  <p> Checkout</p> </div>
       )}
     </div>
@@ -200,19 +200,19 @@ export default function Landing(){
 <div className="w-full flex flex-col items-center py-10 md:py-20 bg-white dark:bg-[#1D1D1D] px-4">
   <div className="w-[200px] mb-8 md:mb-16"></div>
   <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0">
-    <div className="w-full max-w-[450px] h-auto md:h-[350px] rounded-[20px] md:rounded-[25px] p-6 md:p-8 flex flex-col border-t-1 border-t-black dark:border-t-amber-600">
+    <div className="w-full md:w-[450px] h-auto md:h-[350px] rounded-[20px] md:rounded-[25px] p-6 md:p-8 flex flex-col border-t-1 border-t-black dark:border-t-amber-600">
       <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F13.png&w=640&q=75"
         className="h-[60px] w-[60px] md:h-[80px] md:w-[80px] mb-4 md:mb-6"></img>
       <div className="text-[20px] md:text-[24px] font-serif mb-3 ">Quality foods</div>
       <div className="text-gray-500 dark:text-white text-[14px] md:text-[16px]">Belonging sir curiosity discovery extremity yet forfeited prevailed own off. Traveling by introduced of mr terminated.</div>
     </div>
-    <div className="w-full max-w-[450px] h-auto md:h-[350px] rounded-[20px] md:rounded-[25px] p-6 md:p-8 flex flex-col border md:border-t-white dark:border-r-amber-600 border-l-amber-600 border-b-amber-600 dark:border-t-[#1D1D1D]">
+    <div className="w-full md:w-[450px] h-auto md:h-[350px] rounded-[20px] md:rounded-[25px] p-6 md:p-8 flex flex-col border border-t-white dark:border-r-amber-600 dark:border-l-amber-600 dark:border-b-amber-600 dark:border-t-[#1D1D1D]">
       <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F14.png&w=640&q=75"
         className="h-[60px] w-[60px] md:h-[80px] md:w-[80px] mb-4 md:mb-6"></img>
       <div className="text-[20px] md:text-[24px] font-serif mb-3 ">Fast delivery</div>
       <div className="text-gray-500 dark:text-white text-[14px] md:text-[16px]">Belonging sir curiosity discovery extremity yet forfeited prevailed own off. Traveling by introduced of mr terminated.</div>
     </div>
-    <div className="w-full max-w-[450px] h-auto md:h-[350px] rounded-[20px] md:rounded-[25px] p-6 md:p-8 flex flex-col border-t-1 border-t-black dark:border-t-amber-600">
+    <div className="w-full md:w-[450px] h-auto md:h-[350px] rounded-[20px] md:rounded-[25px] p-6 md:p-8 flex flex-col border-t-1 border-t-black dark:border-t-amber-600">
       <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F15.png&w=640&q=75"
         className="h-[60px] w-[60px] md:h-[80px] md:w-[80px] mb-4 md:mb-6 "></img>
       <div className="text-[20px] md:text-[24px] font-serif mb-3 ">Delicious recipes</div>

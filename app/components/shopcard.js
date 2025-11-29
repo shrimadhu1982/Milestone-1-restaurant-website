@@ -6,7 +6,7 @@ export default function Shopcard({image,title,price}){
              <div className="text-[20px] md:text-[25px] font-bold text-black mt-6 md:mt-10 text-center dark:text-white">{title}</div>
              <div className="text-black text-[16px] md:text-[20px] mt-2 md:mt-0 dark:text-white">Price:{price}</div>
              <div className="rounded-[40px] w-full md:w-[200px] h-[35px] md:h-[40px] border-2 border-black bg-white mt-4 md:mt-5 flex items-center justify-center cursor-pointer hover:bg-yellow-300">
-                <div onClick={() => alert("Added Successfully!")} className="text-[16px] md:text-[20px] text-black" >Add to cart</div></div>
+                <div className="text-[16px] md:text-[20px] text-black" >Add to cart</div></div>
         </div>
     );
 }

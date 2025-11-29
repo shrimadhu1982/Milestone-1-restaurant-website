@@ -1,6 +1,7 @@
 "use client";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Openinghours from "../components/openinghours";
 import Shopcard from "../components/shopcard";
 import Headerstyle from "../components/headerstyle";
 export default function Shop(){
@@ -31,7 +32,8 @@ export default function Shop(){
                  </div>
              
        </div>
-         <div className="mt-[500px]"><Footer/></div> 
+       <div className="mt-[600px]"><Openinghours/></div>
+         <div className="mb-[1000px]" ><Footer/></div> 
          </div>
        
         </div>
